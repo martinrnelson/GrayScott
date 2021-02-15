@@ -1,0 +1,11 @@
+# Homogeneous Gray-Scott System
+
+par Feed=0.01 kill=0.03 
+init u=0.2 v=0.2
+
+u'=-u*v^2+Feed*(1-u)
+v'= u*v^2-(feed+kill)*v
+
+@  xlo=0 xhi=1000 ylo=0 yhi=1 total=1000
+
+done
