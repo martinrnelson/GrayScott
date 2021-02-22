@@ -2,6 +2,7 @@
 
 ############ Parameters. Uncomment one and use corresponding IC file ############
 
+# par kill=0.060 Feed=0.040 Du=0.00002 Dv=0.00001 h=0.004 # use XPPIC_k060F040_xL4
 # par kill=0.050 Feed=0.022 Du=0.00002 Dv=0.00001 h=0.008 # use XPPIC_k050F022
 # par kill=0.055 Feed=0.030 Du=0.00002 Dv=0.00001 h=0.008 # use XPPIC_k055F030   
 par kill=0.060 Feed=0.040 Du=0.00002 Dv=0.00001 h=0.008 # use XPPIC_k060F040
