@@ -1,4 +1,8 @@
 function w0=FUN_IC_randomRects(n,numrects,bgu,bgv,valup)
+
+% This function generates an initial condition representing block perturbations
+% to the red state 
+
 % if valup(1(or 2))==0, rectangles have u(or v) value lower than backgroundu(or v)
 % if valup(1(or 2))==1, rectangles have u(or v) value higher than backgroundu(or v)
 
