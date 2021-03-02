@@ -1,4 +1,4 @@
-function A=FUNfivepoint(n)
+function A=FUNfivePointLaplacian(n)
 
 % This function constructs a five-point Laplacian matrix for an n x n
 % mesh, with periodic boundary conditions

@@ -44,7 +44,7 @@ y0=0; yL=xL; y=linspace(y0,yL,n);
 h=(xL-x0)/(n-1); % spatial step size
 nn=n^2;
 
-A=FUNfivepoint(n); A=sparse(A);  % construct Laplacian matrix
+A=FUNfivePointLaplacian(n); A=sparse(A);  % construct Laplacian matrix
 
 load('MyColormaps.mat')
 
