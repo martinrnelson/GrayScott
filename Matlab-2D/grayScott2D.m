@@ -30,7 +30,7 @@ Du=0.00002; Dv=0.00001; feed=0.025; kill=0.054; % gamma (Pearson)
 
 %% setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-n=100;   % nxn grid
+n=256;   % nxn grid
 xL=2.0;  % domain size 
 dt=0.1;  % time step
 nt=1e5;  % number of time steps
@@ -50,12 +50,12 @@ load('MyColormaps.mat')
 
 %% initial conditions (uncomment one) %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% (A) randomly generated rectangles, on background (u,v)=(1,0)
-numrects=10; backgroundu=1; backgroundv=0;
-w0=FUN_IC_randomRects(n,numrects,backgroundu,backgroundv,[0,1]);
+% % (A) randomly generated rectangles, on background (u,v)=(1,0)
+% numrects=10; backgroundu=1; backgroundv=0;
+% w0=FUN_IC_randomRects(n,numrects,backgroundu,backgroundv,[0,1]);
 
-% % (B)  n=256, xL=2.0. preset random rectangles
-% load 'IC_xL2_n256'
+% (B)  n=256, xL=2.0. preset random rectangles (requires n=256 above)
+load 'IC_xL2_n256'
 
 % % (C) n=256, xL=2.0. preset random rectangles for rho
 % load 'IC_xL2_n256'
